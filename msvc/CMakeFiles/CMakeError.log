@@ -1,0 +1,757 @@
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP16 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_9da08.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_BSWAP16 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9da08.dir\Debug\\" /Fd"cmTC_9da08.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(3,30): warning C4013: '__builtin_bswap16' undefined; assuming extern returning int [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_9da08.vcxproj]
+src.obj : error LNK2019: unresolved external symbol __builtin_bswap16 referenced in function main [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_9da08.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_9da08.exe : fatal error LNK1120: 1 unresolved externals [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_9da08.vcxproj]
+
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap16(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP32 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_de8df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_BSWAP32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de8df.dir\Debug\\" /Fd"cmTC_de8df.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(3,30): warning C4013: '__builtin_bswap32' undefined; assuming extern returning int [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_de8df.vcxproj]
+src.obj : error LNK2019: unresolved external symbol __builtin_bswap32 referenced in function main [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_de8df.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_de8df.exe : fatal error LNK1120: 1 unresolved externals [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_de8df.vcxproj]
+
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap32(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP64 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_f35a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_BSWAP64 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f35a0.dir\Debug\\" /Fd"cmTC_f35a0.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(3,30): warning C4013: '__builtin_bswap64' undefined; assuming extern returning int [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_f35a0.vcxproj]
+src.obj : error LNK2019: unresolved external symbol __builtin_bswap64 referenced in function main [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_f35a0.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_f35a0.exe : fatal error LNK1120: 1 unresolved externals [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_f35a0.vcxproj]
+
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap64(0);
+      return 0;
+    }
+  
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_21535.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21535.dir\Debug\\" /Fd"cmTC_21535.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_21535.vcxproj]
+
+
+
+Performing C SOURCE FILE Test FLAG_HAVE_PTHREAD_PRIO_INHERIT failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a3f21.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D FLAG_HAVE_PTHREAD_PRIO_INHERIT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3f21.dir\Debug\\" /Fd"cmTC_a3f21.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(2,18): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a3f21.vcxproj]
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main (void) {
+          int attr = PTHREAD_PRIO_INHERIT;
+          return attr;
+        }
+      
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_0e576.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_DLFCN_H.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e576.dir\Debug\\" /Fd"cmTC_0e576.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c(2,10): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_0e576.vcxproj]
+
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files GLUT/glut.h exist failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_97ece.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_GLUT_GLUT_H.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97ece.dir\Debug\\" /Fd"cmTC_97ece.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c(2,10): fatal error C1083: Cannot open include file: 'GLUT/glut.h': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_97ece.vcxproj]
+
+
+Source:
+/* */
+#include <GLUT/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files GL/glut.h exist failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_5ce50.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_GL_GLUT_H.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ce50.dir\Debug\\" /Fd"cmTC_5ce50.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c(2,10): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_5ce50.vcxproj]
+
+
+Source:
+/* */
+#include <GL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glut.h exist failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_2832c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_OPENGL_GLUT_H.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2832c.dir\Debug\\" /Fd"cmTC_2832c.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c(2,10): fatal error C1083: Cannot open include file: 'OpenGL/glut.h': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2832c.vcxproj]
+
+
+Source:
+/* */
+#include <OpenGL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_9665b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_STRINGS_H.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9665b.dir\Debug\\" /Fd"cmTC_9665b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2,10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_9665b.vcxproj]
+
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_ae7ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_UNISTD_H.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae7ee.dir\Debug\\" /Fd"cmTC_ae7ee.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ae7ee.vcxproj]
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_80968.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80968.dir\Debug\\" /Fd"cmTC_80968.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_80968.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_80968.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_80968.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_80968.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_80968.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_80968.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_80968.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_80968.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_80968.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_80968.vcxproj]
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b2994.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  NOTFOUND
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2994.dir\Debug\\" /Fd"cmTC_b2994.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  NOTFOUND "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+c1 : fatal error C1083: Cannot open source file: 'NOTFOUND': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+  src.c
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b2994.vcxproj]
+  Generating Code...
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_533ac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS_DSP_R2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_533ac.dir\Debug\\" /Fd"cmTC_533ac.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_533ac.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_533ac.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_533ac.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_533ac.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_533ac.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_533ac.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_533ac.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_533ac.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_533ac.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_533ac.vcxproj]
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_803e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  NOTFOUND
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS_DSP_R2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_803e0.dir\Debug\\" /Fd"cmTC_803e0.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  NOTFOUND "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+c1 : fatal error C1083: Cannot open source file: 'NOTFOUND': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+  src.c
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_803e0.vcxproj]
+  Generating Code...
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_ddf3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_NEON /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ddf3c.dir\Debug\\" /Fd"cmTC_ddf3c.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ddf3c.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ddf3c.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ddf3c.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ddf3c.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ddf3c.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ddf3c.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ddf3c.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ddf3c.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ddf3c.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_ddf3c.vcxproj]
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_2ad02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  NOTFOUND
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_NEON /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ad02.dir\Debug\\" /Fd"cmTC_2ad02.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  NOTFOUND "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+c1 : fatal error C1083: Cannot open source file: 'NOTFOUND': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+  src.c
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2ad02.vcxproj]
+  Generating Code...
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a2a20.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MSA /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2a20.dir\Debug\\" /Fd"cmTC_a2a20.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a2a20.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a2a20.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a2a20.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a2a20.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a2a20.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a2a20.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a2a20.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a2a20.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a2a20.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_a2a20.vcxproj]
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_cd671.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  NOTFOUND
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MSA /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd671.dir\Debug\\" /Fd"cmTC_cd671.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  NOTFOUND "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+c1 : fatal error C1083: Cannot open source file: 'NOTFOUND': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+  src.c
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_cd671.vcxproj]
+  Generating Code...
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_c7ed3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7ed3.dir\Debug\\" /Fd"cmTC_c7ed3.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_c7ed3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_c7ed3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_c7ed3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_c7ed3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_c7ed3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_c7ed3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_c7ed3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_c7ed3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_c7ed3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_c7ed3.vcxproj]
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_71b06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  NOTFOUND
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71b06.dir\Debug\\" /Fd"cmTC_71b06.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  NOTFOUND "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+c1 : fatal error C1083: Cannot open source file: 'NOTFOUND': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+  src.c
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_71b06.vcxproj]
+  Generating Code...
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_67dc2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS_DSP_R2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67dc2.dir\Debug\\" /Fd"cmTC_67dc2.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_67dc2.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_67dc2.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_67dc2.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_67dc2.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_67dc2.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_67dc2.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_67dc2.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_67dc2.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_67dc2.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_67dc2.vcxproj]
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b33f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  NOTFOUND
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS_DSP_R2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b33f3.dir\Debug\\" /Fd"cmTC_b33f3.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  NOTFOUND "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+c1 : fatal error C1083: Cannot open source file: 'NOTFOUND': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+  src.c
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_b33f3.vcxproj]
+  Generating Code...
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_2056f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_NEON /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2056f.dir\Debug\\" /Fd"cmTC_2056f.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2056f.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2056f.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2056f.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2056f.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2056f.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2056f.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2056f.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2056f.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2056f.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_2056f.vcxproj]
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_eb612.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  NOTFOUND
+c1 : fatal error C1083: Cannot open source file: 'NOTFOUND': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_NEON /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb612.dir\Debug\\" /Fd"cmTC_eb612.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  NOTFOUND "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+  src.c
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_eb612.vcxproj]
+  Generating Code...
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_7a9df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MSA /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a9df.dir\Debug\\" /Fd"cmTC_7a9df.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_7a9df.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_7a9df.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_7a9df.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_7a9df.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_7a9df.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_7a9df.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_7a9df.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_7a9df.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_7a9df.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_7a9df.vcxproj]
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_45785.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  NOTFOUND
+  cl /c /I"N:\Development\Dev_Base\libwebp-1.3.0" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MSA /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45785.dir\Debug\\" /Fd"cmTC_45785.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  NOTFOUND "N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c"
+c1 : fatal error C1083: Cannot open source file: 'NOTFOUND': No such file or directory [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+  src.c
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: syntax error: missing ';' before identifier 'is' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: syntax error: missing ';' before identifier 'not' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: syntax error: missing ';' before identifier 'valid' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: syntax error: missing ';' before identifier 'code' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': undeclared identifier [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: syntax error: missing ';' before 'return' [N:\Development\Dev_Base\libwebp-1.3.0\msvc\CMakeFiles\CMakeTmp\cmTC_45785.vcxproj]
+  Generating Code...
+
+
+Source file was:
+
+      #include "N:/Development/Dev_Base/libwebp-1.3.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    

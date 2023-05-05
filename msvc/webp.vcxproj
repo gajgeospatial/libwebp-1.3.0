@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="vs2019_Debug|x64">
+      <Configuration>vs2019_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2019_Release|x64">
+      <Configuration>vs2019_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2022_Debug|x64">
+      <Configuration>vs2022_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2022_Release|x64">
+      <Configuration>vs2022_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E561AE6C-D7FC-36E4-9D91-B0F5B2747086}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>webp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libwebp</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">libwebp</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">libwebp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libwebp</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">libwebp</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">libwebp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libwebp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libwebp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\;.\;..\src;..\..\$(GIF_DIR)\include;..\..\$(PNG_DIR);..\..\$(JPEG_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\alpha_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\buffer_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\frame_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\idec_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\io_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\quant_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\tree_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\vp8_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\vp8l_dec.obj" />
+    <Object Include=".\webpdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\webp_dec.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\alpha_processing.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\cpu.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\dec.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\dec_clip_tables.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\filters.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\lossless.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\rescaler.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\upsampling.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\yuv.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\alpha_processing_sse41.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\dec_sse41.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\lossless_sse41.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\upsampling_sse41.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\yuv_sse41.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\alpha_processing_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\dec_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\filters_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\lossless_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\rescaler_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\upsampling_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\yuv_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\cost.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\enc.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\lossless_enc.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\ssim.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\cost_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\enc_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\lossless_enc_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\ssim_sse2.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\enc_sse41.obj" />
+    <Object Include=".\webpdsp.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\lossless_enc_sse41.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\alpha_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\analysis_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\backward_references_cost_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\backward_references_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\config_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\cost_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\filter_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\frame_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\histogram_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\iterator_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\near_lossless_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\picture_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\picture_csp_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\picture_psnr_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\picture_rescale_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\picture_tools_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\predictor_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\quant_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\syntax_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\token_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\tree_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\vp8l_enc.obj" />
+    <Object Include=".\webpencode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\webp_enc.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\bit_reader_utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\color_cache_utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\filters_utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\huffman_utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\quant_levels_dec_utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\rescaler_utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\random_utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\thread_utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\bit_writer_utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\huffman_encode_utils.obj" />
+    <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\quant_levels_utils.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include=".\ZERO_CHECK.vcxproj">
+      <Project>{8B5B4AAA-CC07-3C31-93B5-A1A5CB413721}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include=".\sharpyuv.vcxproj">
+      <Project>{28B80E64-8DC3-3291-9023-23E4C7FCD5A1}</Project>
+      <Name>sharpyuv</Name>
+    </ProjectReference>
+    <ProjectReference Include=".\webpdecode.vcxproj">
+      <Project>{22CB8DDE-F6C2-395C-A5A4-45CD76D52D52}</Project>
+      <Name>webpdecode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include=".\webpdsp.vcxproj">
+      <Project>{0E35DCC6-F392-3A78-99E2-F29C522B51FA}</Project>
+      <Name>webpdsp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include=".\webpencode.vcxproj">
+      <Project>{5571986A-BDF9-3DD0-B902-E2C900333DE2}</Project>
+      <Name>webpencode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include=".\webputils.vcxproj">
+      <Project>{D91C87A3-0663-31CB-BE6C-FAC9CBE4B933}</Project>
+      <Name>webputils</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
