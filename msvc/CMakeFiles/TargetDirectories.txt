@@ -24,6 +24,3 @@ N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/get_disto.dir
 N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/webp_quality.dir
 N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/anim_diff.dir
 N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/anim_dump.dir
-N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/INSTALL.dir
-N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/ALL_BUILD.dir
-N:/Development/Dev_Base/libwebp-1.3.0/msvc/CMakeFiles/ZERO_CHECK.dir

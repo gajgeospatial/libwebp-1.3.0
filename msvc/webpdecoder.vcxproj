@@ -417,32 +417,6 @@
     <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\thread_utils.obj" />
     <Object Include=".\webputilsdecode.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\utils.obj" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include=".\ZERO_CHECK.vcxproj">
-      <Project>{8B5B4AAA-CC07-3C31-93B5-A1A5CB413721}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include=".\webpdecode.vcxproj">
-      <Project>{22CB8DDE-F6C2-395C-A5A4-45CD76D52D52}</Project>
-      <Name>webpdecode</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include=".\webpdspdecode.vcxproj">
-      <Project>{536D20AA-68EC-3EBD-AA01-7C59AF7901DA}</Project>
-      <Name>webpdspdecode</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include=".\webputilsdecode.vcxproj">
-      <Project>{0A834A33-D4F3-3E89-8FF6-51D51441AC4A}</Project>
-      <Name>webputilsdecode</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

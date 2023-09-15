@@ -453,42 +453,6 @@
     <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\huffman_encode_utils.obj" />
     <Object Include=".\webputils.dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\quant_levels_utils.obj" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include=".\ZERO_CHECK.vcxproj">
-      <Project>{8B5B4AAA-CC07-3C31-93B5-A1A5CB413721}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include=".\sharpyuv.vcxproj">
-      <Project>{28B80E64-8DC3-3291-9023-23E4C7FCD5A1}</Project>
-      <Name>sharpyuv</Name>
-    </ProjectReference>
-    <ProjectReference Include=".\webpdecode.vcxproj">
-      <Project>{22CB8DDE-F6C2-395C-A5A4-45CD76D52D52}</Project>
-      <Name>webpdecode</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include=".\webpdsp.vcxproj">
-      <Project>{0E35DCC6-F392-3A78-99E2-F29C522B51FA}</Project>
-      <Name>webpdsp</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include=".\webpencode.vcxproj">
-      <Project>{5571986A-BDF9-3DD0-B902-E2C900333DE2}</Project>
-      <Name>webpencode</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include=".\webputils.vcxproj">
-      <Project>{D91C87A3-0663-31CB-BE6C-FAC9CBE4B933}</Project>
-      <Name>webputils</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

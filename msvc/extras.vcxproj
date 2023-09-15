@@ -380,14 +380,6 @@
     <ClInclude Include="..\extras\extras.h" />
     <ClCompile Include="..\extras\quality_estimate.c" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include=".\ZERO_CHECK.vcxproj">
-      <Project>{8B5B4AAA-CC07-3C31-93B5-A1A5CB413721}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

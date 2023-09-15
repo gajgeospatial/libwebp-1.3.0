@@ -475,42 +475,6 @@
     <ClCompile Include="..\examples\dwebp.c" />
     <ClInclude Include="..\examples\stopwatch.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include=".\ZERO_CHECK.vcxproj">
-      <Project>{8B5B4AAA-CC07-3C31-93B5-A1A5CB413721}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include=".\exampleutil.vcxproj">
-      <Project>{97C2FE97-C4ED-3F43-BA8C-1D896AB8D4B9}</Project>
-      <Name>exampleutil</Name>
-    </ProjectReference>
-    <ProjectReference Include=".\imagedec.vcxproj">
-      <Project>{DE63556A-2DCC-38E0-BF13-2AE20D835EFF}</Project>
-      <Name>imagedec</Name>
-    </ProjectReference>
-    <ProjectReference Include=".\imageenc.vcxproj">
-      <Project>{683C67B9-45A3-334A-9476-29427FCC78C0}</Project>
-      <Name>imageenc</Name>
-    </ProjectReference>
-    <ProjectReference Include=".\imageioutil.vcxproj">
-      <Project>{C3A90726-A2E0-3525-B1A1-BD2F8885D1F2}</Project>
-      <Name>imageioutil</Name>
-    </ProjectReference>
-    <ProjectReference Include=".\sharpyuv.vcxproj">
-      <Project>{28B80E64-8DC3-3291-9023-23E4C7FCD5A1}</Project>
-      <Name>sharpyuv</Name>
-    </ProjectReference>
-    <ProjectReference Include=".\webp.vcxproj">
-      <Project>{E561AE6C-D7FC-36E4-9D91-B0F5B2747086}</Project>
-      <Name>webp</Name>
-    </ProjectReference>
-    <ProjectReference Include=".\webpdemux.vcxproj">
-      <Project>{38AAEE27-E989-34FC-BAC9-BA9F9C0A5639}</Project>
-      <Name>webpdemux</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
